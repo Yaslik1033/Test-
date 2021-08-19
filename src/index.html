@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+  <title>FUDI</title>
+</head>
+
+<body>
+  <div class="dark-banner hidden"></div>
+  <section class="banner">
+    <div class="pop-up-menu">
+      <span class="close-pop-up">&#10006;</span>
+      <nav>
+        <a href="#">Test 1</a>
+        <a href="#">Test 2</a>
+        <a href="#">Test 3</a>
+        <a href="#">Test 4</a>
+      </nav>
+    </div>
+    <header class="upper-case">
+      <img
+        class="logo"
+        src="../img/logo.png"
+        alt="logo"
+      >
+      <div class="menu">
+        <span id="log-in-icon">log in</span>
+        <span id="sign-up-icon">sign up</span>
+        <div class="boorger-menu-wrapper flex-centered">
+          <img
+            id="borger-menu-icon"
+            src="../img/boorger.png"
+            alt="boorger menu"
+          >
+        </div>
+      </div>
+    </header>
+
+    <div class="log-in emerging-form hidden">
+      <button type="button" class="close flex-centered">&lt;</button>
+      <img
+        class="logo"
+        src="../img/logo.png"
+        alt="logo"
+      >
+      <h2 class="upper-case">log-in</h2>
+      <form action="post">
+        <input
+          type="text"
+          class="username-email"
+          placeholder="Username or email"
+        >
+        <input
+          type="password"
+          class="password"
+          placeholder="Password"
+        >
+
+        <button type="submit" class="upper-case">log in</button>
+      </form>
+      <p class="no-account upper-case">
+        dont have an account? 
+        <span id="go-to-sign-up">
+          sign up
+        </span>
+      </p>
+    </div>
+
+    <div class="sign-up emerging-form hidden">
+      <button type="button" class="close flex-centered">&lt;</button>
+      <img
+        class="logo"
+        src="../img/logo.png"
+        alt="logo"
+      >
+      <h2 class="upper-case">sign-up</h2>
+      <form action="post">
+        <input
+          type="text"
+          class="username"
+          placeholder="Username"
+        >
+
+        <input
+          type="text"
+          class="email"
+          placeholder="Email"
+        >
+
+        <input
+          type="type"
+          class="password"
+          placeholder="Password"
+        >
+
+        <button type="submit" class="upper-case">sign up</button>
+      </form>
+      <p class="no-account upper-case">
+        if you already have an account
+        <span id="go-to-log-in">
+          log in
+        </span>
+      </p>
+    </div>
+
+    <div class="content upper-case flex-centered">
+      <i class="find-text">
+        Find your favorite
+      </i>
+      <span class="recipes-text">
+        recipes
+      </span>
+      <button class="upper-case">
+        get started
+      </button>
+      <span class="send-text">
+        or send us your own recipes and <a>get rewarded!</a>
+      </span>
+    </div>
+  </section>
+
+  <main>
+    <section class="getters">
+      <div class="container">
+        <div class="card flex-centered">
+          <div class="circle flex-centered">
+            <img 
+              src="../img/boorger icon.png" 
+              alt="boorger"
+              class="boorger-icon"
+            >
+          </div>
+          <h2 class="card-title upper-case">get inspired</h2>
+          <span class="card-description">
+            Lorem ipsum dolor sit amet, consectetur adipisc 
+            Pellentesque vel enim a elit viverra elementuma.
+            Aliquam erat volutpat.
+          </span>
+        </div>
+  
+        <div class="card flex-centered">
+          <div class="circle flex-centered">
+            <img 
+              src="../img/money icon.png" 
+              alt="money"
+              class="money-icon"
+            >
+          </div>
+          <h2 class="card-title upper-case">get rewarded</h2>
+          <span class="card-description">
+            Lorem ipsum dolor sit amet, consectetur adipisc 
+            Pellentesque vel enim a elit viverra elementuma.
+            Aliquam erat volutpat.
+          </span>
+        </div>
+  
+        <div class="card flex-centered">
+          <div class="circle flex-centered">
+            <img 
+              src="../img/cook icon.png" 
+              alt="cook"
+              class="cook-icon"
+            >
+          </div>
+          <h2 class="card-title upper-case">get social</h2>
+          <span class="card-description">
+            Lorem ipsum dolor sit amet, consectetur adipisc 
+            Pellentesque vel enim a elit viverra elementuma.
+            Aliquam erat volutpat.
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section class="fudi-app">
+      <div class="container">
+        <img
+        class="phone"
+          src="../img/phone cut.png"
+          alt="phone"
+        >
+        <article class="introducing">
+          <h2 class="introducing-title upper-case">INTRODUCING THE FUDI APP</h2>
+          <div class="description">
+            <p>
+              Morbi eget posuere dolor. Pellentesque cursus aliquet aliquet. Aeneanet 
+              felis sit amet diam mollis ullamcorper. Nullam consequat sem a ante vest
+              ibulum tristique. Suspendisse tristique lacus ac mattis porta. 
+            </p>
+  
+            <p>
+              Vivamus ligula quam, vehicula non lacinia sed, faucibus sit amet libero. In 
+              libero dui, eleifend eu nisi id, egestas fringilla odio. In varius quam a mas
+              sa hendrerit ullamcorper a eu justo. Suspendisse porta mattis convallis. 
+              Aenean tempus ligula ac odio rhoncus, quis aliquam dolor accumsan. 
+            </p>
+  
+            <p>
+              Suspendisse aliquet felis consectetur libero congue, sed pulvinar diam 
+              malesuada. Duis vehicula a nibh id hendrerit. Donec sit amet ultrices 
+              ante, a mattis massa. 
+            </p>
+          </div>
+
+          <div class="links">
+            <a href="#">
+              <img src="../img/app store.png" alt="app store">
+            </a>
+            <a href="#">
+              <img src="../img/google play.png" alt="google play">
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="carousel">
+      <div class="all">
+        <input checked type="radio" name="respond" class="desktop">
+        <article class="slider">
+          <input checked type="radio" name="slider" id="switch1">
+          <input type="radio" name="slider" id="switch2">
+          <input type="radio" name="slider" id="switch3">
+          <div class="slides">
+            <div class="overflow">
+              <div class="image">
+                <article>
+                  <img 
+                    class="avatar"
+                    src="../img/avatar.png"
+                    alt="face"
+                  >
+                  <div class="comment">
+                    <div class="comment-text">
+                      I am so happy because I found this recipe, and it just made my life easier.
+                      Thanks  so much for sharing!
+                    </div>
+                    <div class="comment-author">
+                      Michael Dawson, San Francisco, CA
+                    </div>
+                  </div>
+                </article>
+  
+                <article>
+                  <img 
+                    class="avatar"
+                    src="../img/avatar.png"
+                    alt="face"
+                  >
+                  <div class="comment">
+                    <div class="comment-text">
+                      I am so happy because I found this recipe, and it just made my life easier.
+                      Thanks  so much for sharing!
+                    </div>
+                    <div class="comment-author">
+                      Michael Dawson, San Francisco, CA
+                    </div>
+                  </div>
+                </article>
+
+                <article>
+                  <img 
+                    class="avatar"
+                    src="../img/avatar.png"
+                    alt="face"
+                  >
+                  <div class="comment">
+                    <div class="comment-text">
+                      I am so happy because I found this recipe, and it just made my life easier.
+                      Thanks  so much for sharing!
+                    </div>
+                    <div class="comment-author">
+                      Michael Dawson, San Francisco, CA
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="active">
+                <label for="switch1"></label>
+                <label for="switch2"></label>
+                <label for="switch3"></label>
+              </div>
+            </div>
+          </div>
+      </article>
+      </div>
+    </section>
+
+    <section class="cuisines">
+      <div class="title-wrapper">
+        <h2 class="cuisines-title upper-case">browse by cuisines</h2>
+      </div>
+      <div class="cards"></div>
+    </section>
+
+    <section class="counters">
+      <div class="container">
+
+        <div class="counter">
+          <div class="count">0</div>
+          <h3 class="title">Recipes Available</h3>
+        </div>
+
+        <div class="counter">
+          <div class="count">0</div>
+          <h3 class="title">Active Users</h3>
+        </div>
+
+        <div class="counter">
+          <div class="count">0</div>
+          <h3 class="title">Positive Reviews</h3>
+        </div>
+
+        <div class="counter">
+          <div class="count">0</div>
+          <h3 class="title">Photo & Videos</h3>
+        </div>
+
+        <div class="counter">
+          <div class="count">0</div>
+          <h3 class="title">Spices and Herbs</h3>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="rights flex-centered">
+        &copy2014 Fudi. All Rights Reserved.
+      </div>
+      <div class="design upper-case">
+        <span class="design-by">design by:</span>
+        <a href="#" class="designers">www.bekades.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../src/bannerForms.js"></script>
+  <script src="../src/pop-up.js"></script>
+  <script src="../src/cards.js"></script>
+  <script src="../src/counters.js"></script>
+
+</body>
+
+</html>
